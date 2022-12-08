@@ -1,0 +1,9 @@
+ 2022-12-04 08:57:28,998 - root - ERROR - 2022-12-04 08:57:28.998761 - 	:Traceback (most recent call last):
+  File "/home/richard/sbspros/python/plex-reader/code/models/PlexSection.py", line 26, in plex_connection
+    self._plex_connect=PlexServer(baseUrl,token)
+  File "/home/richard/sbspros/python/plex-reader/lib/python3.9/site-packages/plexapi/server.py", line 117, in __init__
+    data = self.query(self.key, timeout=self._timeout)
+  File "/home/richard/sbspros/python/plex-reader/lib/python3.9/site-packages/plexapi/server.py", line 703, in query
+    raise Unauthorized(message)
+plexapi.exceptions.Unauthorized: (401) unauthorized; http://192.168.1.138:32400/ <html><head><script>window.location = window.location.href.match(/(^.+\/)[^\/]*$/)[1] + 'web/index.html';</script><title>Unauthorized</title></head><body><h1>401 Unauthorized</h1></body></html>
+

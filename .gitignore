@@ -7,11 +7,12 @@
 /share
 
 # ignore log files generated
-/sample/log/logfile.log
+/code/log/logfile.log
 
 # python control files
-/sample/common/__pycache__
-/sample/exceptions/__pycache__
-/sample/models/__pycache__
-/sample/views/__pycache__
+/code/common/__pycache__
+/code/exceptions/__pycache__
+/code/models/__pycache__
+/code/views/__pycache__
+code/tables/__pycache__
 
