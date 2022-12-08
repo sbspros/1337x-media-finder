@@ -16,7 +16,7 @@ class MediaFinderFailed(Exception):
         self.msg = 'Media Finder failed to initialize'
         super().__init__(self.msg)
 
-class MediaFinder(BaseClass):
+class MediaFinder():
     """ This call the py1337x library functions.  This will be a centralized class 
         call from a few places    """
 

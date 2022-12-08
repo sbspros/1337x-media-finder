@@ -14,5 +14,10 @@
 /code/exceptions/__pycache__
 /code/models/__pycache__
 /code/views/__pycache__
-code/tables/__pycache__
+/code/tables/__pycache__
+/code/config.ini
+/code/tests/.pytest_cache
+/code/test/__init__.py
+/code/test/__pycache__
+
 
