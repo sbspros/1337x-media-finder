@@ -1,0 +1,23 @@
+from dataclasses import dataclass,field
+
+
+@dataclass
+class TvShowTorrent():
+    _name:str=field(init=False)
+    _torrent_id:str=field(init=False)
+    _link:str=field(init=False)
+    _seeders:str=field(init=False)
+    _leechers:str=field(init=False)
+    _size:str=field(init=False)
+    _upload_date:str=field(init=False)
+    _uploader:str=field(init=False)
+    _uploaderLink:str=field(init=False)
+    _match:bool=field(init=False,default=False)
+
+
+
+
+
+
+
+

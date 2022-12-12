@@ -22,7 +22,6 @@ class PlexSection():
 
     def plex_connection(self,baseUrl,token):
         try:
-            
             self._plex_connect=PlexServer(baseUrl,token)
         except:
             self._bc.log.error("\t"+":"+traceback.format_exc())
