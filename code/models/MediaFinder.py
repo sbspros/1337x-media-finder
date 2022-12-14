@@ -33,6 +33,7 @@ class MediaFinder():
         """ Runs the py1337x search funtion and returns the results"""
         try:
             self._bc.log.info("\tInside search")
+            print(self._raw_model.search(search_str,category=category,sortBy='seeders')['items'])
             return self._raw_model.search(search_str,category=category,sortBy='seeders')['items']
         except:
             self._bc.log.error("\t"+":"+traceback.format_exc())
